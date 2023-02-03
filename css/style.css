@@ -92,3 +92,14 @@ section {
 #chocolate-pizza {
     margin: 2rem 0;
 }
+
+article {
+    width: 70wh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+article p {
+    border: 2px solid red;
+}
