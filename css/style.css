@@ -196,3 +196,7 @@ footer {
     font-size: 22px;
     color: var(--muted-text);
 }
+
+.strike-through {
+    text-decoration: line-through;
+}
