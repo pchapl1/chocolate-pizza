@@ -1,6 +1,94 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: black;
+}
+
+:root {
+    --muted-text : #cdcecd;
+    --list-color: #b1ab9b;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+}
+div#store-name {
+    display: flex;
+}
+
+#store-name img {
+    margin-right: .6rem;
+    height: 50px;
+}
+
+#logo-div h3 {
+    font-family: 'Seaweed Script', cursive, 'sans serif';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+#logo-div p{
+    color: #cdcdd2;
+    font-size: .8rem;
+}
+
+
+ul {
+    display: flex;
+    gap: 2px;
+}
+
+li:nth-child(6) {
+    margin-right: 8px;
+}
+
+#grey-bar {
+    width: 70vw;
+    margin: auto;
+    height: 20px;
+    background-color: gray;
+}
+
+.hero-page {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: auto;
+    width: 70vw;
+    margin-top: 5rem;
+}
+.text {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text h1 {
+    margin-bottom: .5rem;
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+}
+
+.text h4 {
+    color: var(--muted-text);
+}
+
+.posted {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+#chocolate-pizza {
+    margin: 2rem 0;
 }
